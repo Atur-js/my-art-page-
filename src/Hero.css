@@ -1,0 +1,78 @@
+
+.glass-panel {
+  color:black;
+  margin: 100px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 90%;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(18px);
+  margin-top: 10%;
+}
+
+.glass-button {
+  display: inline-block;
+  padding: 20px 26px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.glass-button:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+body {
+  background: url("image/7.jpg") no-repeat center center ;
+  background-size: auto;
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: contain;
+  background-size: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.glass-panel {  
+  margin-top: 150px;
+  max-width: 500px;
+  max-height: 200vh;
+}
+
+.glass-button {
+  margin: 15px;
+  margin-top: 40px;
+}
+
+h1, h1 a {
+  min-height: 120px;
+  width: 90%;
+  max-width: 700px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 60px;
+  color: rgba(255,255,255,0.8);
+ 
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  margin-top: 10px;
+  color: rgba(255,255,255,0.6);
+}
